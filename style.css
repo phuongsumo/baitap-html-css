@@ -722,8 +722,11 @@ body {
     color: #fff;
     font-weight: 700;
     padding: 8px 18px;
+    transition: .3s;
 }
-
+.about__btn:hover {
+    background-color: #ac252a;
+}
 /* News CSS */
 
 #news {
