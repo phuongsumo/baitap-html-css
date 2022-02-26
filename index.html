@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Open+Sans:wght@300;500;600;700;800&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto+Condensed:wght@300&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <title>NguyenThePhuong - Bài tập HTML, CSS</title>
+</head>
+
+<body>
+    <div id="top-bar">
+        <div class="container">
+            <div class="row justify-content-between top_bar_wrap">
+                <div class="contact">
+                    <div class="contact__icon">
+                        <a href="#" class="contact__link">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="contact__link">
+                            <i class="fa-brands fa-google-plus-g"></i>
+                        </a>
+                    </div>
+                    <p class="tel">hotline: <a href="tel:  0126 922 0162"> 0126 922 0162</a></p>
+                </div>
+                <div class="service">
+                    <ul class="service__list">
+                        <li class="service__item">
+                            <a href="#" class="service__link">
+                                chăm sóc khách hàng
+                            </a>
+                        </li>
+                        <li class="service__item">
+                            <a href="#" class="service__link">
+                                tin tức
+                            </a>
+                        </li>
+                        <li class="service__item">
+                            <a href="#" class="service__link">
+                                tuyển dụng
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="nav-bar">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="nav__mona-logo">
+                    <a href="#">
+                        <img src="./img/mona-logo-anphuoc.png" alt="logo">
+                    </a>
+                </div>
+                <div class="d-flex align-items-center nav-list-wrap">
+                    <ul class="nav__list">
+                        <li class="nav__item active">
+                            <a href="#" class="nav__link">trang chủ</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#" class="nav__link">giới thiệu</a>
+                            <ul class="subnav__list">
+                                <li class="subnav__item">
+                                    <a href="#" class="subnav__link">
+                                        Tổng quan về công ty
+                                    </a>
+                                </li>
+                                <li class="subnav__item">
+                                    <a href="#" class="subnav__link">
+                                        Lịch sử hình thành
+                                    </a>
+                                </li>
+                                <li class="subnav__item">
+                                    <a href="#" class="subnav__link">
+                                        Tầm nhìn - Sứ mệnh
+                                    </a>
+                                </li>
+                                <li class="subnav__item">
+                                    <a href="#" class="subnav__link">
+                                        Câu chuyện thương hiệu
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#" class="nav__link">khách hàng doanh nghiệp</a>
+                            <ul class="subnav__list">
+                                <li class="subnav__item">
+                                    <a href="#" class="subnav__link">
+                                        Hệ thống quản lý chất lượng
+                                    </a>
+                                </li>
+                                <li class="subnav__item">
+                                    <a href="#" class="subnav__link">
+                                        Dây chuyền sản xuất
+                                    </a>
+                                </li>
+                                <li class="subnav__item">
+                                    <a href="#" class="subnav__link">
+                                        Đội ngũ nhân sự
+                                    </a>
+                                </li>
+                                <li class="subnav__item">
+                                    <a href="#" class="subnav__link">
+                                        Hệ thống nhà máy
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#" class="nav__link">sản phẩm</a>
+                            <ul class="subnav__list subnav__list-menu">
+                                <li class="subnav__item">
+                                    <a href="#" class="subnav__link">
+                                        trang phục nam
+                                    </a>
+                                    <ul class="submenu__list">
+                                        <li class="submenu__item">
+                                            <a href="#" class="submenu__link">
+                                                Veston nam
+                                            </a>
+                                        </li>
+                                        <li class="submenu__item">
+                                            <a href="#" class="submenu__link">
+                                                Sơ mi nam
+                                            </a>
+                                        </li>
+                                        <li class="submenu__item">
+                                            <a href="#" class="submenu__link">
+                                                Quần nam
+                                            </a>
+                                        </li>
+                                        <li class="submenu__item">
+                                            <a href="#" class="submenu__link">
+                                                Áo thun nam
+                                            </a>
+                                        </li>
+                                        <li class="submenu__item">
+                                            <a href="#" class="submenu__link">
+                                                Áo khoác nam
+                                            </a>
+                                        </li>
+                                        <li class="submenu__item">
+                                            <a href="#" class="submenu__link">
+                                                Đồ lót nam
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="subnav__item">
+                                    <a href="#" class="subnav__link">
+                                        trang phục nữ
+                                    </a>
+                                    <ul class="submenu__list">
+                                        <li class="submenu__item">
+                                            <a href="#" class="submenu__link">
+                                                Sơ mi nữ
+                                            </a>
+                                        </li>
+                                        <li class="submenu__item">
+                                            <a href="#" class="submenu__link">
+                                                Áo thun nữ
+                                            </a>
+                                        </li>
+                                        <li class="submenu__item">
+                                            <a href="#" class="submenu__link">
+                                                Quần nữ
+                                            </a>
+                                        </li>
+                                        <li class="submenu__item">
+                                            <a href="#" class="submenu__link">
+                                                Khăn choàng nữ
+                                            </a>
+                                        </li>
+                                        <li class="submenu__item">
+                                            <a href="#" class="submenu__link">
+                                                Áo khoác nữ
+                                            </a>
+                                        </li>
+                                        <li class="submenu__item">
+                                            <a href="#" class="submenu__link">
+                                                Áo vest nữ
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="subnav__item">
+                                    <a href="#" class="subnav__link">
+                                        pierre Cardin
+                                    </a>
+                                    <ul class="submenu__list">
+                                        <li class="submenu__item">
+                                            <a href="#" class="submenu__link">
+                                                Áo sơ mi
+                                            </a>
+                                        </li>
+                                        <li class="submenu__item">
+                                            <a href="#" class="submenu__link">
+                                                Veston
+                                            </a>
+                                        </li>
+                                        <li class="submenu__item">
+                                            <a href="#" class="submenu__link">
+                                                Quần
+                                            </a>
+                                        </li>
+                                        <li class="submenu__item">
+                                            <a href="#" class="submenu__link">
+                                                Áo thun
+                                            </a>
+                                        </li>
+                                        <li class="submenu__item">
+                                            <a href="#" class="submenu__link">
+                                                Áo khoác
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="subnav__item">
+                                    <a href="#" class="subnav__link">
+                                        phụ kiện - phiếu quà tặng
+                                    </a>
+                                    <ul class="submenu__list">
+                                        <li class="submenu__item">
+                                            <a href="#" class="submenu__link">
+                                                Giày
+                                            </a>
+                                        </li>
+                                        <li class="submenu__item">
+                                            <a href="#" class="submenu__link">
+                                                Tất
+                                            </a>
+                                        </li>
+                                        <li class="submenu__item">
+                                            <a href="#" class="submenu__link">
+                                                Dây nịt
+                                            </a>
+                                        </li>
+                                        <li class="submenu__item">
+                                            <a href="#" class="submenu__link">
+                                                Ví
+                                            </a>
+                                        </li>
+                                        <li class="submenu__item">
+                                            <a href="#" class="submenu__link">
+                                                Túi xách
+                                            </a>
+                                        </li>
+                                        <li class="submenu__item">
+                                            <a href="#" class="submenu__link">
+                                                Vali
+                                            </a>
+                                        </li>
+                                        <li class="submenu__item">
+                                            <a href="#" class="submenu__link">
+                                                Nón
+                                            </a>
+                                        </li>
+                                        <li class="submenu__item">
+                                            <a href="#" class="submenu__link">
+                                                Quần đùi
+                                            </a>
+                                        </li>
+                                        <li class="submenu__item">
+                                            <a href="#" class="submenu__link">
+                                                Phiếu quà tặng
+                                            </a>
+                                        </li>
+                                        <li class="submenu__item">
+                                            <a href="#" class="submenu__link">
+                                                Cà vạt
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="subnav__item">
+                                    <a href="#" class="subnav__link">
+                                        khuyến mãi
+                                    </a>
+                                    <ul class="submenu__list">
+                                        <li class="submenu__item">
+                                            <a href="#" class="submenu__link">
+                                                Trang phục nam
+                                            </a>
+                                        </li>
+                                        <li class="submenu__item">
+                                            <a href="#" class="submenu__link">
+                                                Trang phục nữ
+                                            </a>
+                                        </li>
+                                        <li class="submenu__item">
+                                            <a href="#" class="submenu__link">
+                                                Pierre Cardin
+                                            </a>
+                                        </li>
+                                        <li class="submenu__item">
+                                            <a href="#" class="submenu__link">
+                                                Phụ kiện - Phiếu quà tặng
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#" class="nav__link">hệ thống cửa hàng</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#" class="nav__link">liên hệ</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#" class="nav__icon">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </a>
+                            <div class="subnav__list subnav__list-search">
+                                <form action="" class="search-form">
+                                    <input type="text" placeholder="Tìm kiếm...">
+                                    <button class="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+                                </form>
+                            </div>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#" class="nav__icon">
+                                <i class="fa-solid fa-bag-shopping"></i>
+                            </a>
+                            <div class="subnav__list subnav__list-cart">
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="banner">
+        <span class="arrow arrow-left">
+            <i class="fa-solid fa-angle-left"></i>
+        </span>
+        <span class="arrow arrow-right">
+            <i class="fa-solid fa-angle-right"></i>
+        </span>
+        <div class="banner__text">
+            <a href="#" class="banner__collection">BỘ SƯU TẬP</a>
+            <p class="banner__title">MONA MEDIA - 2018</p>
+            <a href="#" class="banner__more">XEM THÊM</a>
+        </div>
+        <div class="banner__dots">
+            <div class="banner__dot active"></div>
+            <div class="banner__dot"></div>
+        </div>
+    </div>
+    <div id="hot">
+        <div class="container">
+            <div class="row">
+                <h3 class="hot__title">
+                    sản phẩm nổi bật
+                </h3>
+            </div>
+            <div class="row justify-content-center">
+                <p class="hot__list active">trang phục nam</p>
+                <p class="hot__list">trang phục nữ</p>
+                <p class="hot__list">pierre carding </p>
+            </div>
+            <div class="row hot__product__container">
+                <span class="arrow arrow-left">
+                    <i class="fa-solid fa-angle-left"></i>
+                </span>
+                <span class="arrow arrow-right">
+                    <i class="fa-solid fa-angle-right"></i>
+                </span>
+                <div class="col hot__product">
+                    <a href="#">
+                        <img class="product__img" src="./img/product1.jpg" alt="">
+                    </a>
+                    <div class="product__text">
+                        <a href="#" class="product__name">ÁO THUN NAM NGẮN TAY AN PHƯỚC - ATH000113</a>
+                        <p class="product__price">795,000 <span class="unit">đ</span></p>
+                    </div>
+                </div>
+                <div class="col hot__product">
+                    <a href="#">
+                        <img class="product__img" src="./img/product2.jpg" alt="">
+                    </a>
+                    <div class="product__text">
+                        <a href="#" class="product__name">ÁO THUN NAM AN PHƯỚC - ATH000140</a>
+                        <p class="product__price">795,000 <span class="unit">đ</span></p>
+                    </div>
+                </div>
+                <div class="col hot__product">
+                    <a href="#">
+                        <img class="product__img" src="./img/product3.jpg" alt="">
+                    </a>
+                    <div class="product__text">
+                        <a href="#" class="product__name">QUẦN TÂY GOLF NAM AN PHƯỚC - AQTG00216</a>
+                        <p class="product__price">795,000 <span class="unit">đ</span></p>
+                    </div>
+                </div>
+                <div class="col hot__product">
+                    <a href="#">
+                        <img class="product__img" src="./img/product4.jpg" alt="">
+                    </a>
+                    <div class="product__text">
+                        <a href="#" class="product__name">QUẦN SHORT NAM AN PHƯỚC - ASH000146</a>
+                        <p class="product__price">475,000 <span class="unit">đ</span></p>
+                    </div>
+                </div>
+                <div class="col hot__product">
+                    <a href="#">
+                        <img class="product__img" src="./img/product5.jpg" alt="">
+                    </a>
+                    <div class="product__text">
+                        <a href="#" class="product__name">ÁO SƠ MI NAM DÀI TAY AN PHƯỚC - ASD000787</a>
+                        <p class="product__price">642,000 <span class="unit">đ</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="row hot__models">
+                <div class="col hot__model">
+                    <div class="text_inner">
+                        <a href="#" class="link">trang phục nam</a>
+                    </div>
+                    <div class="male">
+                    </div>
+                </div>
+                <div class="col hot__model">
+                    <div class="text_inner">
+                        <a href="#" class="link">trang phục nữ</a>
+                    </div>
+                    <div class="female">
+                    </div>
+                </div>
+                <div class="col hot__model">
+                    <div class="models_wrap">
+                        <div class="hot__pierre-carding">
+                            <div class="text_inner">
+                                <a href="#" class="link">pierre carding</a>
+                            </div>
+                            <div class="content"></div>
+                        </div>
+                        <div class="hot__accessory">
+                            <div class="text_inner">
+                                <a href="#" class="link">phụ kiện - phiếu quà tặng</a>
+                            </div>
+                            <div class="content"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="about__wrap">
+            <div class="about__text">
+                <h3 class="about__company">Công ty</h3>
+                <h2 class="company__name">công ty tnhh may thêu giày</h2>
+                <p class="description">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                    and scrambled it to make a type specimen book.
+                </p>
+                <button class="about__btn">hiểu thêm về chúng tôi</button>
+            </div>
+        </div>
+    </div>
+    <div id="news">
+        <div class="container">
+            <div class="row">
+                <h3 class="title">TIN TỨC - SỰ KIỆN</h3>
+            </div>
+            <div class="row news_card">
+                <div class="col">
+                    <div class="card">
+                        <a href="#">
+                            <img class="card-img-top" src="./img/20namchangduong.jpg" alt="20namchangduong">
+                        </a>
+                        <a href="#" class="card-body">
+                            <h5 class="card-title">20 năm một chặng đường thành công</h5>
+                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s,
+                                when an unknown printer took a [...]
+                            </p>
+                            <p class="more_btn">XEM THÊM</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <a href="#">
+                            <img class="card-img-top" src="./img/daidienthuonghieu.jpg" alt="daidienthuonghieu">
+                        </a>
+                        <a href="#" class="card-body">
+                            <h5 class="card-title">đại diện thương hiệu đến thăm và làm việc tại công ty</h5>
+                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s,
+                                when an unknown printer took a [...]
+                            </p>
+                            <p class="more_btn">XEM THÊM</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <a href="#">
+                            <img class="card-img-top" src="./img/20namthuonghieu.jpg" alt="20namthuonghieu">
+                        </a>
+                        <a href="#" class="card-body">
+                            <h5 class="card-title">dấu ấn 20 năm thương hiệu thời trang</h5>
+                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s,
+                                when an unknown printer took a [...]
+                            </p>
+                            <p class="more_btn">XEM THÊM</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="achievement">
+        <div class="achievement__wrap">
+            <div class="col achievement__item">
+                <p class="achievement__number">853</p>
+                <p class="achievement__text">Cửa hàng</p>
+            </div>
+            <div class="col achievement__item">
+                <p class="achievement__number">1000</p>
+                <p class="achievement__text">Khách hàng doanh nghiệp</p>
+            </div>
+            <div class="col achievement__item">
+                <p class="achievement__number">15</p>
+                <p class="achievement__text">Triệu sản phẩm tiêu thụ năm 2016</p>
+            </div>
+        </div>
+    </div>
+    <div id="partner">
+        <div class="container">
+            <div class="row partner__wrap">
+                <div class="col partner__element">
+                    <a href="#">
+                        <img src="./img/1.png" alt="partner" class="partner__img">
+                    </a>
+                </div>
+                <div class="col partner__element">
+                    <a href="#">
+                        <img src="./img/2.png" alt="partner" class="partner__img">
+                    </a>
+                </div>
+                <div class="col partner__element">
+                    <a href="#">
+                        <img src="./img/3.png" alt="partner" class="partner__img">
+                    </a>
+                </div>
+                <div class="col partner__element">
+                    <a href="#">
+                        <img src="./img/4.png" alt="partner" class="partner__img">
+                    </a>
+                </div>
+                <div class="col partner__element">
+                    <a href="#">
+                        <img src="./img/5.png" alt="partner" class="partner__img">
+                    </a>
+                </div>
+                <div class="col partner__element">
+                    <a href="#">
+                        <img src="./img/6.png" alt="partner" class="partner__img">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <div class="container">
+            <div class="row footer__wrap">
+                <div class="col footer__element">
+                    <div class="footer__img">
+                        <img src="./img/mona-logo-anphuoc.png" alt="logo" class="footer__logo">
+                    </div>
+                    <p class="footer__text">151 Hồ Bá Kiện, Phường 15, Quận 10, Tp.Hồ Chí Minh.</p>
+                    <p class="footer__text">Email: <a href="#" class="footer__link">demonhunter@gmail.com</a></p>
+                    <p class="footer__text">Điện thoại: <a href="#" class="footer__link">0126 922 0162</a></p>
+                    <p class="footer__text">Skype: <a href="#" class="footer__link">demonhunterp</a></p>
+                    <div class="footer__contacts">
+                        <a href="#" class="footer__contact_icon">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="footer__contact_icon">
+                            <i class="fa-brands fa-google-plus-g"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col footer__element">
+                    <p class="footer__title">về chúng tôi</p>
+                    <a href="#" class="footer__link">Tổng quan về công ty</a>
+                    <a href="#" class="footer__link">Lịch sử hình thành</a>
+                    <a href="#" class="footer__link">Tầm nhìn - Sứ mệnh</a>
+                    <a href="#" class="footer__link">Câu chuyện thương hiệu</a>
+                </div>
+                <div class="col footer__element">
+                    <p class="footer__title">hỗ trợ khách hàng</p>
+                    <a href="#" class="footer__link">Phiếu quà tặng</a>
+                    <a href="#" class="footer__link">Hướng dẫn chọn size</a>
+                    <a href="#" class="footer__link">Thẻ VIP</a>
+                </div>
+                <div class="col footer__element">
+                    <p class="footer__title">đăng ký nhận bản tin</p>
+                    <form action="" class="footer__send">
+                        <input type="text" placeholder="Địa chỉ email">
+                        <button class="footer__send-btn">GỬI</button>
+                    </form>
+                    <p class="footer__text">
+                        Đăng ký với chúng tôi để nhận email về sản phẩm mới, khuyến mại đặc biệt và các sự kiện độc đáo.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="copyright">
+        <p class="copyright_text">
+            © All rights reserved. Thiết kế website
+            <img src="./img/logo.png" alt="logo" class="copyright_logo">
+            <a href="#" class="copyright_link">Mona Media</a>
+        </p>
+    </div>
+</body>
+
+</html>
