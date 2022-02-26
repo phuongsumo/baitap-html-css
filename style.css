@@ -727,6 +727,9 @@ body {
 .about__btn:hover {
     background-color: #ac252a;
 }
+.about__btn:focus {
+    outline: none;
+}
 /* News CSS */
 
 #news {
